@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+    cursor: crosshair;
+}
+div {
+    position: fixed;
+    display: flex;
+}
+#credits {
+    top: 10px;
+    left: 10px;
+}
+#credits2 {
+    bottom: 10px;
+    right: 10px;
+}
+button {
+    margin: 2px;
+    border: solid black 1px;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 10px;
+    transition: transform 250ms, border-radius 250ms;
+}
+p {
+    margin: 2px;
+    color: lightsteelblue;
+    text-shadow: black 0 1px, black 1px 0, black 0 -1px, black -1px 0;
+}
+p:hover {
+    cursor: default;
+}
