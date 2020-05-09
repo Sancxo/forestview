@@ -27,7 +27,7 @@ init = () => {
 
 onWindowResize = () => {
     camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix;
+    camera.updateProjectionMatrix();
 
     renderer.setSize(window.innerWidth, window.innerHeight);
 };
